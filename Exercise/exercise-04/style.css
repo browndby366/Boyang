@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    margin:0 ;
+    padding:0 ;
+    border:0;
+}
+
+body, html{
+    font-family: 'Open Sans', sans-serif;
+}
+.container{
+    display:flex;
+    justify-content: space-around;
+}
+
+.left{
+    background-color: rgb(248, 166, 237);
+    padding: 30px;
+}
+
+.right{
+    background-color:rgb(151, 121, 85);
+    padding: 30px;
+}
+
+.head_left{
+    font-size: 30px;
+    color:rgb(59, 26, 241)
+}
+
+.head_right{
+    font-size: larger;
+    color:rgb(102, 10, 121)
+}
+
+.capital ::first-letter{
+    font-size: 48px;
+}
+
+.capital{
+    color:rgb(76, 113, 180)
+}
