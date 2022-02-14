@@ -57,3 +57,31 @@ body{
 h6 {
     float:left;
 }
+
+.container {
+    background: cadetblue;
+    width: 50%;
+}
+
+
+* {
+    width: 0;
+    padding: 0;
+    line-height: 1.68;
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: capitalize;
+    font-size: 3em;
+    line-height: 3em;
+}
+
+.popo{
+    color: gray;
+    font-size: 1.5em;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    border-c
+}
+
