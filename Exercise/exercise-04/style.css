@@ -52,7 +52,7 @@ a:hover{
 }
 
 .head_left{
-    font-size: 50px;
+    font-size: 40px;
     color:rgb(59, 26, 241);
     text-align: center;
     text-transform:uppercase;
@@ -98,7 +98,6 @@ a:hover{
 }
 
 .capital :hover{
-    font-size: 21px;
     background-color: rgb(243, 235, 243);
     color: rgb(26, 30, 31);
     padding:3px;
