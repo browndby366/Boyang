@@ -139,32 +139,27 @@ button{
     transition: transform 0.5s;
 }
 
-card1{
-    background-image: url(../image/620bfad14bb3b.jpg);
-    background-position: center;
-    background-size: cover;
-    width: 100%;
-    height:100vh;
-
-
-}
-
-card2{
+.card1{
     background-image: url(../image/620bfad14bb3b.jpg);
 
 }
 
-card3{
+.card2{
     background-image: url(../image/620bfad14bb3b.jpg);
 
 }
 
-card4{
+.card3{
     background-image: url(../image/620bfad14bb3b.jpg);
 
 }
 
-card:hover{
+.card4{
+    background-image: url(../image/620bfad14bb3b.jpg);
+
+}
+
+.card:hover{
     transform: translateY(-10px);
 }
 
