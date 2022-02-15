@@ -1,0 +1,20 @@
+
+*{
+  
+        box-sizing: border-box;
+        margin:0 ;
+        padding:0 ;
+        border:0;
+   
+}
+body{
+   
+    background-image: url('../image/2493466.jpg');
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+
+}
+ 
