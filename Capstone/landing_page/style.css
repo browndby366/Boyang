@@ -9,7 +9,7 @@
 }
 body{
    
-    background-image: url('../image/2493466.jpg');
+    background-image: url('../image/99.jpg');
 
     background-size: cover;
     background-repeat: no-repeat;
@@ -63,7 +63,7 @@ a{
     padding: 5px;
     color: whitesmoke;
     text-decoration: none;
-    border-radius: 10px;
+    border-radius: 0;
     
     
     border:solid;
