@@ -1,0 +1,11 @@
+
+
+@media (max-wdith:600px){
+    main{
+        flex-direction:column
+    }
+    section,aside{
+        width:100%;
+        height:50vh;
+    }
+}
