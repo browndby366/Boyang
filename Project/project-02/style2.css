@@ -1,0 +1,204 @@
+* {
+ 
+    margin:0;
+    padding:0;
+  }
+
+  body
+  {
+    margin:0;
+    padding:0;
+    font-family:"Roboto",sans-serif;
+
+
+
+  }
+.container{
+
+        width: 100%;
+        height:100vh;
+        background:linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.6)), url(../image/il_1140xN.3172013260_fm7c.jpg);
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        
+
+}
+
+  nav {
+      display: flex;
+      top:0;
+      left:0;
+      width:100%;
+      height: 12%;
+      padding: 0px 90px;
+      box-sizing: border-box;
+      background: rgba(0, 0, 0, 0.6);
+      border-bottom: 1px solid #fff;
+
+  }
+
+.logo {
+    width:30%;
+    height: 80px;
+    padding: 23px 15px;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color:#fff;
+
+}
+.navbar{
+    display: flex;
+    width:70%;
+    justify-content: flex-end;
+    padding: 0px 15px;
+}
+
+ul {
+    list-style: none;
+    float:right;
+    margin:0;
+    padding: 0;
+    display: flex;
+
+}
+
+a.haha{
+
+    line-height: 80px;
+    color: #fff;
+    padding: 12px 30px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+
+}
+
+a:hover{
+    background:rgba(0, 0,0, 0.7);
+    border-radius: 6px;
+
+}
+
+
+
+.row {
+    display: flex;
+    height: 83%;
+    align-items: center;
+    background-color: transparent;
+    padding-left: 80px;
+    padding-right: 20px;
+
+}
+
+.foot{
+    height:5%;
+}
+
+
+.col .left{
+    width: 70%;
+}
+
+.col .right{
+    width:30%;
+}
+
+
+h1 {
+    color: #fff;
+    font-size: 60px;
+
+}
+
+p{
+
+    color: #fff;
+    font-size: 11px;
+    line-height: 15px;
+    
+
+}
+
+a{
+    color:#fff;
+    text-decoration: none;
+}
+
+button{
+    width: 150px;
+    height:30px;
+    color:#000;
+    font-size: 20px;
+    padding: 12px,0;
+    background: #fff;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 50px;
+    font-weight: bolder;
+    cursor: pointer;
+
+}
+
+.card {
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 20px 15px;
+
+    background-position: center;
+    background-size: cover;
+
+    transition: transform 0.5s;
+}
+
+.card1{
+    background-image: url(../image/620bfad14bb3b.jpg);
+
+}
+
+.card2{
+    background-image: url(../image/canva-unrecognizable-man-working-on-laptop-remotely-MAD-BwIsoVI.jpg);
+
+}
+
+.card3{
+    background-image: url(../image/total_build_rt_img1.png);
+
+}
+
+.card4{
+    background-image: url(../image/79.-Vision-bus.jpg);
+
+}
+
+.card:hover{
+    transform: translateY(-10px);
+}
+
+h5 {
+    color:#fff;
+    font-size: 20px;
+    text-shadow:0 0 5px #999 ;
+}
+
+card.p{
+    text-shadow:0 0 15px #000 ;
+    font-size:  8px; 
+}
+
+@media (max-width:700px){
+    .card{
+        display:flex;
+        flex-direction: column;
+    }
+}
