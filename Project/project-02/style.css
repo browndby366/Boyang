@@ -71,6 +71,7 @@ section {
     background: url(../image/il_1140xN.3172013260_fm7c.jpg);
     background-size: cover;
     background-position: center;
+    
 
 }
 
@@ -172,4 +173,10 @@ h5 {
 card.p{
     text-shadow:0 0 15px #000 ;
     font-size:  8px; 
+}
+
+@media (max-width:1000px){
+    section{
+        width: 100%;
+    }
 }
