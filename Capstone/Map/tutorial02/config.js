@@ -15,7 +15,7 @@ var config = {
             alignment: 'left',
             hidden: false,
             title: 'Building Energy Score in US',
-            image: './path/to/image/source.png',
+            image: 'https://user-images.githubusercontent.com/95707552/156633861-463cfe42-110e-4eb1-959b-3f87911c5dbf.jpg',
             description: 'There are a lot of trees in the world.',
             location: {
                 center: [ -98.75939, 40.11066],
@@ -28,12 +28,12 @@ var config = {
             callback: '',
             onChapterEnter: [
                  {
-                     layer: 'blocks-joined-trees-um',
+                     layer: 'mcda_green',
                      opacity: 0,
                      duration: 3000
                  },
                  {
-                     layer:'2015-street-tree-census-subset',
+                     layer:'mcda',
                      opacity:0,
                      duration:3000,
                  }
@@ -63,9 +63,13 @@ var config = {
             callback: '',
             onChapterEnter: [
                 {
-                    
+                    layer:'mcda_green',
                     opacity:1,
                     duration:3000,
+                },
+                {
+                    layer: 'mcda',
+                    opacity: 0,
                 }
             ],
             onChapterExit: []
@@ -78,14 +82,24 @@ var config = {
             description:'In this dataset, there are areas with not so many trees...',
             location:{
                 center:[-73.94834, 40.80899],
-                zoom:18.75,
-                pitch:60,
+                zoom:10,
+                pitch:80,
                 bearing:-60
             },
             mapAnimation:'flyTo',
             rotateAnimation:false,
             callback:'',
-            onChapterEnter:[],
+            onChapterEnter:[
+                {
+                    layer:'mcda_green',
+                    opacity:0,
+                    duration:3000,
+                },
+                {
+                    layer: 'mcda',
+                    opacity: 1,
+                }
+            ],
             onChapterExit:[]
         },
         {   
