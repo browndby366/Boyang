@@ -1,11 +1,11 @@
 var config = {
-    style: 'mapbox://styles/bd2598/cl06yn96z000v16oeddbabbwf',
+    style: 'mapbox://styles/bd2598/cl0b7bp4o000c15s6t1ae4xl0',
     accessToken: 'pk.eyJ1IjoiYmQyNTk4IiwiYSI6ImNrd21lazRubTBnNHIybm1ycjN3ZjNtenQifQ.IVH82ltpIfki5WUUrX77MA',
     showMarkers: false,
     markerColor: '#3FB1CE',
     theme: 'light',
     use3dTerrain: true,
-    title: 'NYC Street Trees',
+    title: 'NYC Building Energy Score Performance',
     subtitle: 'A Tale of Many Trees',
     byline: 'By Boyang Dan',
     footer: 'Source: source citations, etc.',
@@ -14,12 +14,12 @@ var config = {
             id: 'chapter-1',
             alignment: 'left',
             hidden: false,
-            title: 'Trees of the World',
+            title: 'Building Energy Score in US',
             image: './path/to/image/source.png',
             description: 'There are a lot of trees in the world.',
             location: {
-                center: [0, 0],
-                zoom: 2,
+                center: [ -98.75939, 40.11066],
+                zoom: 4,
                 pitch: 0,
                 bearing: 0
             },
@@ -53,8 +53,8 @@ var config = {
             image: './path/to/image/source.png',
             description: 'NYC has lots of trees.',
             location: {
-                center: [-73.94834, 40.80899],
-                zoom: 15,
+                center: [-73.94834, 40.70000],
+                zoom: 10,
                 pitch: 0,
                 bearing: 0
             },
@@ -63,7 +63,7 @@ var config = {
             callback: '',
             onChapterEnter: [
                 {
-                    layer:'2015-street-tree-census-subset',
+                    
                     opacity:1,
                     duration:3000,
                 }
