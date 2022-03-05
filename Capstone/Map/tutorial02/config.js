@@ -6,20 +6,20 @@ var config = {
     theme: 'light',
     use3dTerrain: true,
     title: 'NYC Building Energy Score Performance',
-    subtitle: 'A Tale of Many Trees',
-    byline: 'By Boyang Dan',
-    footer: 'Source: source citations, etc.',
+    subtitle: 'A Tale of Building Energy',
+    byline: 'A Capstone',
+    footer: 'Produced by Boyang Dan Style from Mapbox ',
     chapters: [
         {
             id: 'chapter-1',
             alignment: 'left',
             hidden: false,
-            title: 'Building Energy Score in US',
+            title: 'One NYC',
             image: 'https://user-images.githubusercontent.com/95707552/156633861-463cfe42-110e-4eb1-959b-3f87911c5dbf.jpg',
             description: 'There are a lot of trees in the world.',
             location: {
-                center: [ -98.75939, 40.11066],
-                zoom: 4,
+                center: [ -74.14482, 40.75754],
+                zoom: 9.5,
                 pitch: 0,
                 bearing: 0
             },
@@ -28,15 +28,30 @@ var config = {
             callback: '',
             onChapterEnter: [
                  {
-                     layer: 'mcda_green',
+                     layer: 'mcda',
                      opacity: 0,
                      duration: 3000
                  },
                  {
-                     layer:'mcda',
+                     layer:'mcda_under50',
                      opacity:0,
                      duration:3000,
-                 }
+                 },
+                 {
+                    layer:'building_distribution',
+                    opacity:0,
+                    duration:3000,
+                },
+                {
+                    layer:'under50_points',
+                    opacity:0,
+                    duration:3000,
+                },
+                {
+                    layer:'score_distribution',
+                    opacity:0,
+                    duration:3000,
+                }
             ],
             onChapterExit: [
                 // {
@@ -49,11 +64,121 @@ var config = {
             id: 'chapter-2',
             alignment: 'left',
             hidden: false,
-            title: 'New York City',
+            title: '纽约建筑排量大',
+            image: 'https://user-images.githubusercontent.com/95707552/156633861-463cfe42-110e-4eb1-959b-3f87911c5dbf.jpg',
+            description: 'There are a lot of trees in the world.',
+            location: {
+                center: [ -74.14482, 40.75754],
+                zoom: 9.5,
+                pitch: 0,
+                bearing: 0
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+                 {
+                     layer: 'mcda',
+                     opacity: 0,
+                     duration: 3000
+                 },
+                 {
+                     layer:'mcda_under50',
+                     opacity:0,
+                     duration:3000,
+                 },
+                 {
+                    layer:'building_distribution',
+                    opacity:0,
+                    duration:3000,
+                },
+                {
+                    layer:'under50_points',
+                    opacity:0,
+                    duration:3000,
+                },
+                {
+                    layer:'score_distribution',
+                    opacity:0,
+                    duration:3000,
+                },
+                {
+                    layer: 'fordham',
+                    opacity: 0,
+                    duration: 3000
+                }
+            ],
+            onChapterExit: [
+                // {
+                //     layer: 'layer-name',
+                //     opacity: 0
+                // }
+            ]
+        },
+        {
+            id: 'chapter-3',
+            alignment: 'left',
+            hidden: false,
+            title: 'Building Energy Score 是什么',
+            image: 'https://user-images.githubusercontent.com/95707552/156633861-463cfe42-110e-4eb1-959b-3f87911c5dbf.jpg',
+            description: 'There are a lot of trees in the world.',
+            location: {
+                center: [ -74.14482, 40.75754],
+                zoom: 9.5,
+                pitch: 0,
+                bearing: 0
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+                 {
+                     layer: 'mcda',
+                     opacity: 0,
+                     duration: 3000
+                 },
+                 {
+                     layer:'mcda_under50',
+                     opacity:0,
+                     duration:3000,
+                 },
+                 {
+                    layer:'building_distribution',
+                    opacity:0,
+                    duration:3000,
+                },
+                {
+                    layer:'under50_points',
+                    opacity:0,
+                    duration:3000,
+                },
+                {
+                    layer:'score_distribution',
+                    opacity:0,
+                    duration:3000,
+                },
+                {
+                    layer: 'fordham',
+                    opacity: 0,
+                    duration: 3000
+                }
+            ],
+            onChapterExit: [
+                // {
+                //     layer: 'layer-name',
+                //     opacity: 0
+                // }
+            ]
+        },
+        {
+            id: 'chapter-4',
+            alignment: 'left',
+            hidden: false,
+            title: 'Building Distribution',
             image: './path/to/image/source.png',
             description: 'NYC has lots of trees.',
             location: {
-                center: [-73.94834, 40.70000],
+                center: [-74.10000, 40.72000],
                 zoom: 10,
                 pitch: 0,
                 bearing: 0
@@ -63,83 +188,195 @@ var config = {
             callback: '',
             onChapterEnter: [
                 {
-                    layer:'mcda_green',
-                    opacity:1,
+                    layer: 'mcda',
+                    opacity: 0,
+                    duration: 3000
+                },
+                {
+                    layer:'mcda_under50',
+                    opacity:0,
                     duration:3000,
                 },
                 {
-                    layer: 'mcda',
-                    opacity: 0,
-                }
+                   layer:'building_distribution',
+                   opacity:1,
+                   duration:3000,
+               },
+               {
+                   layer:'under50_points',
+                   opacity:0,
+                   duration:3000,
+               },
+               {
+                layer:'score_distribution',
+                opacity:0,
+                duration:3000,
+              },
+              {
+                layer: 'fordham',
+                opacity: 0,
+                duration: 3000
+            }
             ],
             onChapterExit: []
         },
         {
-            id:'chapter-3',
+            id:'chapter-5',
             alignment:'left',
             hidden:false,
-            title:'Not So many trees',
+            title:'Score Distribution',
             description:'In this dataset, there are areas with not so many trees...',
             location:{
-                center:[-73.94834, 40.80899],
+                center:[-74.10000, 40.72000],
                 zoom:10,
-                pitch:80,
-                bearing:-60
+                pitch:0,
+                bearing:0
             },
             mapAnimation:'flyTo',
             rotateAnimation:false,
             callback:'',
             onChapterEnter:[
                 {
-                    layer:'mcda_green',
+                    layer: 'mcda',
+                    opacity: 0,
+                    duration: 3000
+                },
+                {
+                    layer:'mcda_under50',
                     opacity:0,
                     duration:3000,
                 },
                 {
-                    layer: 'mcda',
-                    opacity: 1,
-                }
+                   layer:'building_distribution',
+                   opacity:0,
+                   duration:3000,
+               },
+               {
+                   layer:'under50_points',
+                   opacity:0,
+                   duration:3000,
+               },
+               {
+                layer:'score_distribution',
+                opacity:1,
+                duration:3000,
+              },
+              {
+                layer: 'fordham',
+                opacity: 0,
+                duration: 3000
+            }
             ],
             onChapterExit:[]
         },
         {   
-            id: 'chapter-4',
+            id: 'chapter-6',
             alignment: 'right',
             hidden: false,
-            title: 'Many Trees',
+            title: 'Regression Analysis',
             description: 'And areas with lots of trees!',
             location: {
-               center: [-73.96059, 40.80322],
-               zoom: 19,
-               pitch: 60,
-               bearing: 15
+               center: [-73.79834, 40.69000],
+               zoom: 9.5,
+               pitch: 0,
+               bearing: 0
                 },
             mapAnimation: 'flyTo',
-            rotateAnimation: false,
+            rotateAnimation: true,
             callback: '',
             onChapterEnter: [
-              {
-                   layer: 'blocks-joined-trees-um',
-                   opacity: 0,
-                   duration: 3000,
+                {
+                    layer: 'mcda',
+                    opacity: 0,
+                    duration: 3000
+                },
+                {
+                    layer:'mcda_under50',
+                    opacity:0,
+                    duration:3000,
+                },
+                {
+                   layer:'building_distribution',
+                   opacity:0,
+                   duration:3000,
+               },
+               {
+                   layer:'under50_points',
+                   opacity:0,
+                   duration:3000,
+               },
+               {
+                layer:'score_distribution',
+                opacity:0,
+                duration:3000,
               },
-             {
-                layer: '2015-street-tree-census-subset',
-                opacity: 1,
+              {
+                layer: 'fordham',
+                opacity: 0,
+                duration: 3000
             }
         ],
         onChapterExit: []
         },
         {
-            id: 'chapter-5',
+            id: 'chapter-7',
             alignment: 'right',
             hidden: false,
-            title: 'Block Summary',
+            title: 'EJ Index',
             image: './img/legend-block.png',
             description: 'Summarizing the tree data by block also allows us to view larger trends in tree cover in NYC. Greener blocks have higher average street tree diameters than lighter blocks.',
             location: {
-                center: [-73.94834, 40.80899],
-                zoom: 15,
+                center: [-73.79834, 40.69000],
+                zoom: 9.5,
+                pitch: 0,
+                bearing: 0
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: true,
+            callback: '',
+            onChapterEnter: [
+                {
+                    layer: 'mcda',
+                    opacity: 0,
+                    duration: 3000
+                },
+                {
+                    layer:'mcda_under50',
+                    opacity:0,
+                    duration:3000,
+                },
+                {
+                   layer:'building_distribution',
+                   opacity:0,
+                   duration:3000,
+               },
+               {
+                   layer:'under50_points',
+                   opacity:0,
+                   duration:3000,
+               },
+               {
+                layer:'score_distribution',
+                opacity:0,
+                duration:3000,
+               },
+               {
+                layer: 'fordham',
+                opacity: 0,
+                duration: 3000
+            }
+            ],
+            onChapterExit: []
+        },
+        {
+            id: 'chapter-8',
+            alignment: 'left',
+            hidden: false,
+            title: 'MCDA',
+            description: 'Tutorial Created for Methods in Spatial Research, Spring 2022.',
+            location: {
+                center: [-74.10000, 40.70000],
+                zoom: 9.8,
                 pitch: 0,
                 bearing: 0
             },
@@ -148,46 +385,238 @@ var config = {
             callback: '',
             onChapterEnter: [
                 {
-                    layer: 'blocks-joined-trees-um',
+                    layer: 'mcda',
                     opacity: 1,
-                    duration: 3000,
+                    duration: 3000
                 },
                 {
-                    layer: '2015-street-tree-census-subset',
-                    opacity: 1,
-                }
+                    layer:'mcda_under50',
+                    opacity:0,
+                    duration:3000,
+                },
+                {
+                   layer:'building_distribution',
+                   opacity:0,
+                   duration:3000,
+               },
+               {
+                   layer:'under50_points',
+                   opacity:0,
+                   duration:3000,
+               },
+               {
+                layer:'score_distribution',
+                opacity:0,
+                duration:3000,
+               },
+               {
+                layer: 'fordham',
+                opacity: 0,
+                duration: 3000
+            }
             ],
             onChapterExit: []
         },
         {
-            id: 'chapter-6',
+            id: 'chapter-9',
             alignment: 'left',
             hidden: false,
-            title: 'The End',
-            description: 'Tutorial Created for Methods in Spatial Research, Spring 2022.',
+            title: 'Under 50 Points',
+            image: './img/legend-block.png',
+            description: 'Summarizing the tree data by block also allows us to view larger trends in tree cover in NYC. Greener blocks have higher average street tree diameters than lighter blocks.',
             location: {
-                center: [-73.96089, 40.80827],
-                zoom: 19,
-                pitch: 30,
-                bearing: 115
+                center: [-74.10000, 40.70000],
+                zoom: 9.8,
+                pitch: 0,
+                bearing: 0
             },
             mapAnimation: 'flyTo',
-            rotateAnimation: true,
+            rotateAnimation: false,
             callback: '',
             onChapterEnter: [
                 {
-                    layer: 'blocks-joined-trees-um',
+                    layer: 'mcda',
                     opacity: 0,
-                    duration: 3000,
+                    duration: 3000
                 },
                 {
-                    layer: '2015-street-tree-census-subset',
-                    opacity: 0,
-                    duration: 3000,
-                }
+                    layer:'mcda_under50',
+                    opacity:0,
+                    duration:3000,
+                },
+                {
+                   layer:'building_distribution',
+                   opacity:0,
+                   duration:3000,
+               },
+               {
+                   layer:'under50_points',
+                   opacity:1,
+                   duration:3000,
+               },
+               {
+                layer:'score_distribution',
+                opacity:0,
+                duration:3000,
+               },
+               {
+                layer: 'fordham',
+                opacity: 0,
+                duration: 3000
+            }
             ],
             onChapterExit: []
-        }
+        },
+        {
+            id: 'chapter-10',
+            alignment: 'left',
+            hidden: false,
+            title: 'MCDA_Under 50',
+            image: './img/legend-block.png',
+            description: 'Summarizing the tree data by block also allows us to view larger trends in tree cover in NYC. Greener blocks have higher average street tree diameters than lighter blocks.',
+            location: {
+                center: [-74.10000, 40.70000],
+                zoom: 9.8,
+                pitch: 0,
+                bearing: 0
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+                {
+                    layer: 'mcda',
+                    opacity: 0,
+                    duration: 3000
+                },
+                {
+                    layer:'mcda_under50',
+                    opacity:1,
+                    duration:3000,
+                },
+                {
+                   layer:'building_distribution',
+                   opacity:0,
+                   duration:3000,
+               },
+               {
+                   layer:'under50_points',
+                   opacity:0,
+                   duration:3000,
+               },
+               {
+                layer:'score_distribution',
+                opacity:0,
+                duration:3000,
+            },
+            {
+                layer: 'fordham',
+                opacity: 0,
+                duration: 3000
+            },
+            ],
+            onChapterExit: []
+        },
+        {
+            id: 'chapter-11',
+            alignment: 'right',
+            hidden: false,
+            title: 'Fordhanm South',
+            image: './img/legend-block.png',
+            description: 'Summarizing the tree data by block also allows us to view larger trends in tree cover in NYC. Greener blocks have higher average street tree diameters than lighter blocks.',
+            location: {
+                center: [-73.89450, 40.85480],
+                zoom: 14.8,
+                pitch: 50,
+                bearing: 30
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+                {
+                    layer: 'mcda',
+                    opacity: 0,
+                    duration: 3000
+                },
+                {
+                    layer:'mcda_under50',
+                    opacity:1,
+                    duration:3000,
+                },
+                {
+                   layer:'building_distribution',
+                   opacity:0,
+                   duration:3000,
+               },
+               {
+                   layer:'under50_points',
+                   opacity:0,
+                   duration:3000,
+               },
+               {
+                layer:'score_distribution',
+                opacity:0,
+                duration:3000,
+            },
+            {
+                layer: 'fordham',
+                opacity: 1,
+                duration: 3000
+            }
+            ],
+            onChapterExit: []
+        },
+        {
+            id: 'chapter-12',
+            alignment: 'center',
+            hidden: false,
+            title: 'See more detials', 
+            image: './img/legend-block.png',
+            description: 'Summarizing the tree data by block also allows us to view larger trends in tree cover in NYC. Greener blocks have higher average street tree diameters than lighter blocks.',
+            location: {
+                center: [-73.94834, 40.70899],
+                zoom: 10,
+                pitch: 0,
+                bearing: 0
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+                {
+                    layer: 'mcda',
+                    opacity: 0,
+                    duration: 3000
+                },
+                {
+                    layer:'mcda_under50',
+                    opacity:1,
+                    duration:3000,
+                },
+                {
+                   layer:'building_distribution',
+                   opacity:0,
+                   duration:3000,
+               },
+               {
+                   layer:'under50_points',
+                   opacity:0,
+                   duration:3000,
+               },
+               {
+                layer:'score_distribution',
+                opacity:0,
+                duration:3000,
+            },
+            {
+                layer: 'fordham',
+                opacity: 0,
+                duration: 3000
+            }
+            ],
+            onChapterExit: []
+        },
     ]
 };
 

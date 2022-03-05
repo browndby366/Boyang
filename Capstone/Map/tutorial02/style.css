@@ -17,6 +17,8 @@ a, a:hover, a:visited {
     width: 100%;
     position: relative;
     z-index: 5;
+    
+    
 }
 #header h1, #header h2, #header p {
     margin: 0;
@@ -25,11 +27,11 @@ a, a:hover, a:visited {
 }
 #footer {
     width: 100%;
-    min-height: 5vh;
-    padding-top: 2vh;
-    padding-bottom: 2vh;
+    min-height: 2vh;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
     text-align: center;
-    line-height: 25px;
+    line-height: 15px;
     font-size: 13px;
     position: relative;
     z-index: 5;
@@ -83,6 +85,10 @@ a, a:hover, a:visited {
 .step img {
     width: 100%;
 }
+
+
+
+
 
 @media (max-width: 750px) {
     .centered, .lefty, .righty, .fully {
