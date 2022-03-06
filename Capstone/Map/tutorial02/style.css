@@ -20,10 +20,15 @@ a, a:hover, a:visited {
     
     
 }
+
+.config.title{
+    color:red
+}
 #header h1, #header h2, #header p {
     margin: 0;
     padding: 2vh 2vw;
     text-align: center;
+    
 }
 #footer {
     width: 100%;
