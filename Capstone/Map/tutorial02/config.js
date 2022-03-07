@@ -6,7 +6,7 @@ var config = {
     theme: 'light',
     use3dTerrain: true,
     title: 'NYC Building Energy Score Performance Analysis',
-    subtitle: 'A Tale of Building Energy',
+    subtitle: 'A Tale of Building Energy Efficiency in NYC',
     byline: '',
     footer: 'A Town + Gown Capstone',
     chapters: [
