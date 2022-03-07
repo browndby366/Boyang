@@ -177,6 +177,10 @@ button:hover{
     background: linear-gradient(to right,white,gray);
 }
 
+a.explore{
+    background: transparent;
+}
+
 .card {
     width: 200px;
     height: 230px;
