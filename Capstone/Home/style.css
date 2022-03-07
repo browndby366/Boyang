@@ -198,6 +198,10 @@ a.explore{
     transition: transform 0.5s;
 }
 
+.story:hover{
+    background: transparent;
+}
+
 .card1{
     background-image: url(../image/620bfad14bb3b.jpg);
 

@@ -11,10 +11,12 @@ body{
 
 background-image: url('../image/99.jpg');
 
+
 background-size: cover;
 background-repeat: no-repeat;
 background-position: center center;
 background-attachment: fixed;
+animation:fadein 5s linear 1;
 
 }
 
@@ -52,6 +54,15 @@ font-family: 'Nunito Sans', sans-serif;
 font-size: 15px;
 }
 
+
+
+@keyframes fadein{
+    0%{opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
 
 
 
