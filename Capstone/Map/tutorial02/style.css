@@ -17,11 +17,14 @@ a, a:hover, a:visited {
     width: 100%;
     position: relative;
     z-index: 5;
+    background: transparent;
+    padding-top: 30px;
+
     
     
 }
 
-.config.title{
+.chapters.title{
     color:red
 }
 #header h1, #header h2, #header p {
