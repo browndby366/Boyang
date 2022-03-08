@@ -39,6 +39,7 @@ margin-top: 450px;
 margin-left: 46.6vw;
 margin-right: 46.6vw;
 width: 100px;
+font-family: 'Dancing Script';
 }
 
 .subname{
@@ -86,6 +87,7 @@ a{ position: absolute;
     margin-left: 41.3vw;
     margin-right: 41.3vw;
     text-align: center;
+    
     
 }
 
@@ -161,7 +163,7 @@ canvas{
 
 
 @keyframes fadein{
-    0%{opacity: 0;
+    0%{opacity: 0.3;
     }
     100%{
         opacity: 1;
