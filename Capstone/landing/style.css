@@ -23,21 +23,20 @@ text-align: center;
 z-index: 9;
 position: absolute;
 margin: auto;
-
 margin-top: 210px;
 margin-left: 120px;
 margin-right: 120px;
 }
 
 .name{
-font-size: 15px;
+font-size: 23px;
 position: absolute;
 z-index: 9;
 color: white;
 margin-top: 450px;
 margin-left: 46.6vw;
 margin-right: 46.6vw;
-width: 100px;
+width: 130px;
 font-family: 'Dancing Script', cursive;
 }
 
@@ -50,6 +49,7 @@ font-family: 'Dancing Script', cursive;
     margin-left: 41vw;
     margin-right: 41vw;
     color: white;
+    font-family: 'Rajdhani', sans-serif;
 
 }
 .subname02{
@@ -61,6 +61,7 @@ font-family: 'Dancing Script', cursive;
     color: white;
     width: 200px;
     z-index: 9;
+    font-family: 'Rajdhani', sans-serif;
 
 }
 a:hover{
