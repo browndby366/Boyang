@@ -46,8 +46,8 @@ font-family: 'Dancing Script', cursive;
     z-index: 9;
     width: 270px;
     margin-top: 500px;
-    margin-left: 41vw;
-    margin-right: 41vw;
+    margin-left: 42.3vw;
+    margin-right: 42.3vw;
     color: white;
     font-family: 'Rajdhani', sans-serif;
 
@@ -56,8 +56,8 @@ font-family: 'Dancing Script', cursive;
     font-size: 15px;
     position: absolute;
     margin-top: 540px;
-    margin-left: 44vw;
-    margin-right: 44vw;
+    margin-left: 45.5vw;
+    margin-right: 45.5vw;
     color: white;
     width: 200px;
     z-index: 9;
@@ -84,8 +84,8 @@ a{ position: absolute;
     z-index: 9;
     width: 250px;
     margin-top: 640px;
-    margin-left: 41.3vw;
-    margin-right: 41.3vw;
+    margin-left: 41.5vw;
+    margin-right: 41.5vw;
     text-align: center;
     
 }

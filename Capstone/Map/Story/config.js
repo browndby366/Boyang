@@ -721,7 +721,7 @@ var config = {
             id: 'chapter-12',
             alignment: 'left',
             hidden: false,
-            title: 'Under 50 Points',
+            title: 'Distribution of buildings with scores less than 50',
             //image: './img/legend-block.png',
             description: 'This heat map shows that the poor energy efficiency performance buildings, which is less than 50 points,  mainly concentrated in Bronx and Manhattan. A score below 50 means energy efficiency performance is below the average for comparable buildings.',
             location: {
@@ -1198,7 +1198,7 @@ var config = {
             hidden: false,
             title: 'See more detials', 
             image: '../data/image问问.jpg',
-            description: 'Summarizing the tree data by block also allows us to view larger trends in tree cover in NYC. Greener blocks have higher average street tree diameters than lighter blocks.',
+            description: 'Please see more details in the anaysis page.',
             location: {
                 center: [-73.89450, 40.85480],
                 zoom: 14.8,
