@@ -16,6 +16,7 @@ var config = {
             hidden: false,
             title: 'One NYC',
             image: 'http://1w3f31pzvdm485dou3dppkcq-wpengine.netdna-ssl.com/wp-content/uploads/2019/04/onenyc-2050-summary-image-800x550-c-default.jpg',
+            imageCredit: '<a style="text-decoration: none;" href="https://onenyc.cityofnewyork.us/">One NYC</a>',
             description: 'New York City is leading the trend in reducing greenhouse gas emissions. New York City is consistent with the Paris Climate Agreement and has taken a series of measures in various aspects to reduce greenhouse gas emissions (GHG). According to OneNYC 2050 , official strategic plan of New York City for development based on "principles of growth, equity, sustainability, and resiliency", the city is committed to achieving carbon neutrality by 2050 and zero GHG emissions.',
             location: {
                 center: [ -74.10000, 40.72000],

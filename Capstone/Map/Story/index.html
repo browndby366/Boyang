@@ -99,6 +99,13 @@ config.chapters.forEach((record, idx) => {
         chapter.appendChild(image);
     }
 
+    if (record.imageCredit) {
+        var imageCredit = document.createElement('p');
+        imageCredit.classList.add('imageCredit');
+        imageCredit.innerHTML = 'Image credit: ' + record.imageCredit;
+        chapter.appendChild(imageCredit);
+    }
+
     if (record.description) {
         var story = document.createElement('p');
         story.innerHTML = record.description;
