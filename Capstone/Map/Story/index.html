@@ -133,7 +133,7 @@ var footer = document.createElement('div');
 
 if (config.footer) {
     var footerText = document.createElement('p');
-    footerText.innerHTML = config.footer;
+    footerText.innerHTML = config.footer+ '<br>' + config.footerAttribution;
     footer.appendChild(footerText);
 }
 
