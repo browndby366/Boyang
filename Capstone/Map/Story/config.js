@@ -721,11 +721,10 @@ var config = {
         },
         {
             id: 'chapter-12',
-            alignment: 'left',
+            alignment: 'center',
             hidden: false,
-            title: 'Distribution of buildings with scores less than 50',
-            image: '../data/微信图片_20220311113433.png',
-            description: 'This heat map shows that the poor energy efficiency performance buildings, which is less than 50 points,  mainly concentrated in Bronx and Manhattan. A score below 50 means energy efficiency performance is below the average for comparable buildings.',
+            title: 'But BEEJ may not tell the whole story',
+            description: 'Even though some census tracts received high BEEJ scores, they had very few buildings with energy scores below 50, which means that BEEJ does not indicate that this census is less energy efficient in buildings than other census tracts, and their high BEEJ scores are mainly due to higher minority populations and higher low-income populations. For example, in that QN10 Park-Howard Beach, it has a BEEJ score of 172062, which is a score above the 4th percentile, but it has only one building with a score below 50.',
             location: {
                 center: [-74.10000, 40.72000],
                 zoom: 10,
@@ -753,7 +752,7 @@ var config = {
                },
                {
                    layer:'under50_points',
-                   opacity:1,
+                   opacity:0,
                    duration:3000,
                },
                {
@@ -842,9 +841,9 @@ var config = {
             id: 'chapter-14',
             alignment: 'left',
             hidden: false,
-            title: 'Poor Building Energy Efficiency Performance Areas',
-            image: '../data/describe.png',
-            description: 'This map shows the areas in urgent need of our attention where buildings are underperforming in terms of building energy efficiency. That is, these red areas receive the highest BEEJ scores and have the highest number of buildings with below-average energy efficiency performance. The number of buildings scoring below 50 is combined with the BEEJ score to calculate the score using the MCDA methodology (multiple-criteria decision analysis), where the BEEJ weight is 3 (including energy score, minority population and low-income population) and the number of buildings scoring below 50 is weighted 1.',
+            title: 'Distribution of buildings with scores less than 50',
+            image: '../data/微信图片_20220311113433.png',
+            description: 'This heat map shows that the poor energy efficiency performance buildings, which is less than 50 points,  mainly concentrated in Bronx and Manhattan. A score below 50 means energy efficiency performance is below the average for comparable buildings.',
             location: {
                 center: [-74.10000, 40.72000],
                 zoom: 10,
@@ -862,7 +861,7 @@ var config = {
                 },
                 {
                     layer:'mcda_under50',
-                    opacity:1,
+                    opacity:0,
                     duration:3000,
                 },
                 {
@@ -872,15 +871,15 @@ var config = {
                },
                {
                    layer:'under50_points',
-                   opacity:0,
+                   opacity:1,
                    duration:3000,
                },
                {
                 layer:'score_distribution',
                 opacity:0,
                 duration:3000,
-            },
-            {
+               },
+               {
                 layer: 'fordham',
                 opacity: 0,
                 duration: 3000
@@ -961,6 +960,125 @@ var config = {
             id: 'chapter-16',
             alignment: 'left',
             hidden: false,
+            title: 'Poor Building Energy Efficiency Performance Areas',
+            image: '../data/describe.png',
+            description: 'This map shows the areas in urgent need of our attention where buildings are underperforming in terms of building energy efficiency. That is, these red areas receive the highest BEEJ scores and have the highest number of buildings with below-average energy efficiency performance. The number of buildings scoring below 50 is combined with the BEEJ score to calculate the score using the MCDA methodology (multiple-criteria decision analysis), where the BEEJ weight is 3 (including energy score, minority population and low-income population) and the number of buildings scoring below 50 is weighted 1.',
+            location: {
+                center: [-74.10000, 40.72000],
+                zoom: 10,
+                pitch: 0,
+                bearing: 0
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+                {
+                    layer: 'mcda',
+                    opacity: 0,
+                    duration: 3000
+                },
+                {
+                    layer:'mcda_under50',
+                    opacity:1,
+                    duration:3000,
+                },
+                {
+                   layer:'building_distribution',
+                   opacity:0,
+                   duration:3000,
+               },
+               {
+                   layer:'under50_points',
+                   opacity:0,
+                   duration:3000,
+               },
+               {
+                layer:'score_distribution',
+                opacity:0,
+                duration:3000,
+            },
+            {
+                layer: 'fordham',
+                opacity: 0,
+                duration: 3000
+            },
+            {
+                layer: 'beej',
+                opacity: 0,
+                duration: 3000
+            },
+            {
+                layer: 'mostpoor',
+                opacity: 0,
+                duration: 3000
+            },
+            ],
+            onChapterExit: []
+        },
+        {
+            id: 'chapter-17',
+            alignment: 'left',
+            hidden: true,
+            title: 'MCDA',
+            description: 'Tutorial Created for Methods in Spatial Research, Spring 2022.',
+            location: {
+                center: [-74.10000, 40.72000],
+                zoom: 10,
+                pitch: 0,
+                bearing: 0
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+                {
+                    layer: 'mcda',
+                    opacity: 0,
+                    duration: 3000
+                },
+                {
+                    layer:'mcda_under50',
+                    opacity:0,
+                    duration:3000,
+                },
+                {
+                   layer:'building_distribution',
+                   opacity:0,
+                   duration:3000,
+               },
+               {
+                   layer:'under50_points',
+                   opacity:0,
+                   duration:3000,
+               },
+               {
+                layer:'score_distribution',
+                opacity:0,
+                duration:3000,
+               },
+               {
+                layer: 'fordham',
+                opacity: 0,
+                duration: 3000
+            },
+            {
+                layer: 'beej',
+                opacity: 0,
+                duration: 3000
+            },
+            {
+                layer: 'mostpoor',
+                opacity: 0,
+                duration: 3000
+            },
+            ],
+            onChapterExit: []
+        },
+        {
+            id: 'chapter-18',
+            alignment: 'left',
+            hidden: false,
             title: 'Most Poor Areas',
             description: 'There are 35 census tracts with the most poor building energy performance, 33 of which are in the Bronx and 2 in the Queens. Mount Eden-Claremontand Fordhanm Heights are the two NTAs with the largest number of poor building energy efficiency performance census tracts.',
             location: {
@@ -1017,7 +1135,7 @@ var config = {
             onChapterExit: []
         },
         {
-            id: 'chapter-17',
+            id: 'chapter-19',
             alignment: 'left',
             hidden: true,
             title: 'MCDA',
@@ -1076,7 +1194,7 @@ var config = {
             onChapterExit: []
         },
         {
-            id: 'chapter-18',
+            id: 'chapter-20',
             alignment: 'right',
             hidden: false,
             title: 'One Example: Fordhanm Heights',
@@ -1136,7 +1254,7 @@ var config = {
             onChapterExit: []
         },
         {
-            id: 'chapter-19',
+            id: 'chapter-21',
             alignment: 'left',
             hidden: true,
             title: 'MCDA',
@@ -1195,7 +1313,7 @@ var config = {
             onChapterExit: []
         },
         {
-            id: 'chapter-20',
+            id: 'chapter-22',
             alignment: 'center',
             hidden: false,
             title: 'See more detials', 
