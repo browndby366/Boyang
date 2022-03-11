@@ -724,7 +724,7 @@ var config = {
             alignment: 'left',
             hidden: false,
             title: 'Distribution of buildings with scores less than 50',
-            //image: './img/legend-block.png',
+            image: '../data/微信图片_20220311113433.png',
             description: 'This heat map shows that the poor energy efficiency performance buildings, which is less than 50 points,  mainly concentrated in Bronx and Manhattan. A score below 50 means energy efficiency performance is below the average for comparable buildings.',
             location: {
                 center: [-74.10000, 40.72000],
