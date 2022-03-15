@@ -9,7 +9,7 @@ var config = {
     subtitle: 'A Tale of Building Energy Efficiency in NYC',
     byline: '',
     footer: 'A Town + Gown Capstone',
-    footerAttribution: '<a href="https://browndby366.github.io/FirstGit/Capstone/Home/index.html">Home</a>',
+    footerAttribution: '<a href="https://browndby366.github.io/FirstGit/Capstone/landing/index.html">Home</a>',
     chapters: [
         {
             id: 'chapter-1',
