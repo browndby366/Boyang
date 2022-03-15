@@ -26,7 +26,8 @@ a, a:hover, a:visited {
 }
 
 .chapters.title{
-    color:red
+    color:red;
+    text-align: center;
 }
 #header h1, #header h2, #header p {
     margin: 0;
@@ -53,7 +54,7 @@ a, a:hover, a:visited {
     visibility: hidden;
 }
 .centered {
-    width: 50vw;
+    width: 80vw;
     margin: 0 auto;
 }
 .lefty {

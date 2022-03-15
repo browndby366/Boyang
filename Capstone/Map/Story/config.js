@@ -77,7 +77,7 @@ var config = {
             alignment: 'center',
             hidden: false,
             title: 'Buildings Emissions Is Huge',
-            image: 'https://thermolitewindows.com/wp-content/uploads/2019/10/new-york-1745089_1920-1-630x200.jpg',
+            image: '../data/new-york-1745089_1920-1-630x200.jpg',
             description: 'Buildings account for two-thirds of New York City’s GHG emissions. Most of the emissions come from electricity and fuel used for heating, cooling and power, and also from inefficient energy systems. Due to inefficiency and energy waste, many buildings use more energy than they actually need. Energy efficiency is one of the simplest ways to eliminate energy waste and reduce energy cost.',
             location: {
                 center: [ -74.10000, 40.72000],
