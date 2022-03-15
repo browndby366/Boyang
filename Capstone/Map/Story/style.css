@@ -25,10 +25,12 @@ a, a:hover, a:visited {
     
 }
 
-.chapters .title{
-    color:red;
+
+h3{
     text-align: center;
 }
+
+
 
 #header h1, #header h2, #header p {
     margin: 0;
@@ -55,7 +57,7 @@ a, a:hover, a:visited {
     visibility: hidden;
 }
 .centered {
-    width: 80vw;
+    width: 70vw;
     margin: 0 auto;
 }
 .lefty {
@@ -72,8 +74,9 @@ a, a:hover, a:visited {
 }
 .light {
     color: #444;
-    background-color: #fafafa;
+    background-color: white;
 }
+
 .dark {
     color: #fafafa;
     background-color: #444;
