@@ -141,7 +141,7 @@ var config = {
             alignment: 'center',
             hidden: false,
             title: 'Building Energy Efficiency Rating',
-            image: '../data/buildings_energyefficiency_rating54.jpg',
+            image: '../data/buildings_energyefficiency_rating.jpg',
             description: 'An energy efficiency score is the <a style="text-decoration:none"  href="https://www1.nyc.gov/site/buildings/property-or-business-owner/energy-grades.page">Energy Star Rating</a> that a building earns using the United States Environmental Protection Agency online benchmarking tool to compare building energy performance to similar buildings in similar climates, where the higher the score, the better the energy performance of the building.',
             location: {
                 center: [ -74.10000, 40.72000],
