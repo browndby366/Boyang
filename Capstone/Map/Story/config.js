@@ -445,6 +445,7 @@ var config = {
             hidden: false,
             title: 'Related Factors',
             image: '../data/Capstone_Regression analysis_Boyang Dan.jpg',
+            //image:'../data/plotly_mapbox_test_2.html',
             description: 'A regression model shows that he relationship between building energy score and energy use, household median income, percentage of non-white population and some building types (residential, hotel, hospital, retail and office) is significant, where the lower the building energy use, the higher the energy score; the higher the household median income, the higher the energy score; the lower the percentage of non-white population, the higher the energy score; if the building is hotel, hospital or retail building, it may have a higher building energy score.',
             location: {
                center: [-74.10000, 40.72000],
