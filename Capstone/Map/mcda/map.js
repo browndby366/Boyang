@@ -5,6 +5,13 @@ const map = new mapboxgl.Map({
     style: 'mapbox://styles/bd2598/cl0yqstjg000o14oabzgru2uv' // replace this with your style URL
   });
 
+  map.addControl(
+    new MapboxGeocoder({
+       accessToken: mapboxgl.accessToken,
+       mapboxgl: mapboxgl
+})
+);
+
   map.on('load', () => {
     // the rest of the code will go in here
     const layers = [
