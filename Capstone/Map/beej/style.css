@@ -1,0 +1,176 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  h2,
+  h3 {
+    margin: 10px;
+    font-size: 18px;
+  }
+  h2{
+      line-height: 30px;
+  }
+  h3 {
+    font-size: 16px;
+  }
+
+  h4{
+      font-size: 14px;
+  }
+  
+  p {
+    margin: 10px;
+  }
+  
+  /**
+  * Create a position for the map
+  * on the page */
+  #map {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  /**
+  * Set rules for how the map overlays
+  * (information box and legend) will be displayed
+  * on the page. */
+  .map-overlay {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: #fff;
+    margin-right: 20px;
+    font-family: Arial, sans-serif;
+    overflow: auto;
+    border-radius: 3px;
+  }
+  
+  .map-overlay1 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: #fff;
+    margin-left: 20px;
+    font-family: Arial, sans-serif;
+    overflow: auto;
+    border-radius: 3px;
+  }
+  
+
+  #button:hover{
+    color: #255784;
+    background: #2196f3;
+    box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+    transition-delay: 0.5s;
+}
+
+#button{ /*position: absolute;*/
+    display: inline-block;
+    padding:15px 30px;
+    color: #2196f3;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 15px;
+    overflow: hidden;
+    transition: 0.2s;
+    /*z-index: 9;
+    width: 250px;
+    margin-top: 640px;
+    margin-left: 41.5vw;
+    margin-right: 41.5vw;*/
+    height: 11px;
+    text-align: center;
+    
+}
+
+#button span{
+    position: absolute;
+    display: block;
+}
+
+#button span:nth-child(1){
+    top:0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg,transparent,#2196f3);
+}
+
+#button:hover span:nth-child(1){
+    left:100%;
+    transition: 0.6s;
+}
+
+#button span:nth-child(3){
+    bottom:0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg,transparent,#2196f3);
+}
+
+#button:hover span:nth-child(3){
+    right:100%;
+    transition: 1s;
+    transition-delay: 0.3s;
+}
+
+#button span:nth-child(2){
+    top:-100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg,transparent,#2196f3);
+}
+
+#button:hover span:nth-child(2){
+    top:100%;
+    transition: 1s;
+    transition-delay: 0.15s;
+}
+
+#button span:nth-child(4){
+    bottom:-100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg,transparent,#2196f3);
+}
+
+#button:hover span:nth-child(4){
+    bottom:100%;
+    transition: 1s;
+    transition-delay: 0.45s;
+}
+
+
+  #features {
+    top: 0;
+    height: 365px;
+    margin-top: 20px;
+    width: 400px;
+    text-align: center;
+    padding: 20px;
+    line-height: 5px;
+  }
+  
+  #legend {
+    padding: 20px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    line-height: 25px;
+    height: 250px;
+    margin-bottom: 40px;
+    width: 170px;
+  }
+  
+  .legend-key {
+    display: inline-block;
+    border-radius: 20%;
+    width: 10px;
+    height: 10px;
+    margin-right: 5px;
+  }
