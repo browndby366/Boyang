@@ -46,12 +46,12 @@ const map = new mapboxgl.Map({
       legend.appendChild(item);
       });
       map.on('mousemove', (event) => {
-        const beej = map.queryRenderedFeatures(event.point, {
-          layers: ['beej']
+        const mcda = map.queryRenderedFeatures(event.point, {
+          layers: ['mcda']
         });
-        document.getElementById('pd').innerHTML = beej.length
-          ? `<h4>Census Tract: <em>${beej[0].properties.boroct2020}</em></h4><h4>NTA: <em>${beej[0].properties.nta2020}</em></h4><h4>Borough: <em>${beej[0].properties.boroname}</em></h4><h4>BEEJ: <em>${beej[0].properties.BEEJ}</em></h4><h4>Mean Energy Score: <em>${beej[0].properties.NO_meanSco}</em></h4><h4>Low Income Population Ratio: <em>${beej[0].properties.LowRatio}</em></h4><h4>Non-white Population Ratio: <em>${beej[0].properties.NO_nonWhit}</em></h4>`
-          : `<p><a id='button' href="https://browndby366.github.io/FirstGit/Capstone/Home/index.html">Home</a></p>`;
+        document.getElementById('pd').innerHTML = mcda.length
+          ? `<h4>Census Tract: <em>${mcda[0].properties.boroct2020}</em></h4><h4>NTA: <em>${mcda[0].properties.nta2020}</em></h4><h4>Borough: <em>${mcda[0].properties.boroname}</em></h4><h4>MCDA Score: <em>${mcda[0].properties.mcda_under}</em></h4><h4>Mean Energy Score: <em>${mcda[0].properties.NO_meanSco}</em></h4><h4>Low Income Population Ratio: <em>${mcda[0].properties.LowRatio}</em></h4><h4>Non-white Population Ratio: <em>${mcda[0].properties.NO_nonWhit}</em></h4><h4>Counts of D Score Buildings: <em>${mcda[0].properties.Count_}</em></h4>`
+          : `<br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><p><a id='button' href="https://browndby366.github.io/FirstGit/Capstone/Home/index.html">Home</a></p>`;
       });
       map.getCanvas().style.cursor = 'default';
   });
