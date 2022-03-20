@@ -8,7 +8,7 @@ const map = new mapboxgl.Map({
   map.on('load', () => {
     // the rest of the code will go in here
     const layers = [
-        ' 4 ',
+        /*' 4 ',
         ' 6',
         ' 8',
         ' 10',
@@ -16,18 +16,18 @@ const map = new mapboxgl.Map({
         ' 14',
         ' 16',
         ' 18',
-        ' 20',
+        ' 20',*/
       ];
       const colors = [
-        '#55a630',
+        /*'#55a630',
         '#80bc34',
         '#aad338',
         '#d5e93b',
         '#ffff3f',
         '#fccf39',
-        'f99f34',
+        '#f99f34',
         '#f66e2e',
-        '#f22626',
+        '#f22626',*/
       ];
       // create legend
       const legend = document.getElementById('legend');

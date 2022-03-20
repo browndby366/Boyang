@@ -779,7 +779,7 @@ var config = {
             alignment: 'left',
             hidden: false,
             title: 'Building Energy Efficiency Justice Index (BEEJ)',
-            image: '../data/微信图片_20220306221244.png',
+            image: '../data/up.png',
             description: 'Percentage of minority population is defined as non-white population divided by total population, and low income population is defined as the population income below 200% of the federal poverty level, divided by the total population for whom poverty status is determined.',
             location: {
                 center: [-74.10000, 40.72000],

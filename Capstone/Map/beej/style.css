@@ -152,9 +152,9 @@ body {
     top: 0;
     height: 365px;
     margin-top: 20px;
-    width: 400px;
+    width: 350px;
     text-align: center;
-    padding: 20px;
+    padding: 10px;
     line-height: 5px;
   }
   
@@ -162,9 +162,9 @@ body {
     padding: 20px;
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
     line-height: 25px;
-    height: 250px;
+    height:135px;
     margin-bottom: 40px;
-    width: 170px;
+    width: 300px;
   }
   
   .legend-key {
@@ -173,4 +173,36 @@ body {
     width: 10px;
     height: 10px;
     margin-right: 5px;
+  }
+
+  
+ul{
+  display: block;
+
+}
+
+li{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#legend li.graph div{
+  width: 85%;
+  height: 28px;
+  padding-left: 10px;
+}
+
+#legend li.max{
+  float:right;
+  margin:0 35px 0px;
+}
+
+#legend li.min{
+  float:left;
+  margin:0 5px 0px;
+}
+
+  .continuous{
+    background: linear-gradient(to right, #fff200, #ffd900,#ffbf00,#ffa600,#ff8500,#ff7900,#ff6d00,#ff6000,#ff5400,#fc2f00);
   }
