@@ -61,7 +61,7 @@ const map = new mapboxgl.Map({
         });
         document.getElementById('pd').innerHTML = beej.length
           ? `<h4>Census Tract: <em>${beej[0].properties.boroct2020}</em></h4><h4>NTA: <em>${beej[0].properties.nta2020}</em></h4><h4>Borough: <em>${beej[0].properties.boroname}</em></h4><h4>BEEJ: <em>${beej[0].properties.BEEJ}</em></h4><h4>Mean Energy Score: <em>${beej[0].properties.NO_meanSco}</em></h4><h4>Low Income Population Ratio: <em>${beej[0].properties.LowRatio}</em></h4><h4>Non-white Population Ratio: <em>${beej[0].properties.NO_nonWhit}</em></h4>`
-          : `<br></br><br></br><br></br><br></br><br></br><p><a id='button' href="https://browndby366.github.io/FirstGit/Capstone/Home/index.html">Home</a></p>`;
+          : `<br></br><br></br><br></br><br></br><br></br><p><a id='button' href="https://browndby366.github.io/FirstGit/Capstone/Map/mcda/index.html">MCDA</a></p>`;
       });
       map.getCanvas().style.cursor = 'default';
   });
