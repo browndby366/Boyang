@@ -344,7 +344,7 @@ a.haha{
 
   line-height: 53px;
   color: white;
-  padding: 12px 30px;
+  padding: 7px 30px;
   text-decoration: none;
   font-size: 14px;
   font-weight: bold;
@@ -355,6 +355,26 @@ a.haha{
 
 a.haha:hover{
   background:rgba(0, 0,0, 0.7);
-  border-radius: 6px;
+  border-radius: 8px;
+
+}
+
+  
+a.hahaha{
+  
+  line-height: 30px;
+  color: white;
+  padding: 7px 30px;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+
+}
+
+a.hahaha:hover{
+  background:rgba(0, 0,0, 0.7);
+  border-radius: 8px;
 
 }
