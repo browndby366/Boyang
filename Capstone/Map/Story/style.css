@@ -34,10 +34,13 @@ h3{
 
 #header h1, #header h2, #header p {
     margin: 0;
-    padding: 2vh 2vw;
+    
+    padding: 7vh 2vw 0vh 2vw;
     text-align: center;
     
 }
+
+
 #footer {
     width: 100%;
     min-height: 2vh;
@@ -57,7 +60,7 @@ h3{
     visibility: hidden;
 }
 .centered {
-    width: 65vw;
+    width: 55vw;
     margin: 0 auto;
 }
 .lefty {
@@ -100,6 +103,89 @@ h3{
     width: 100%;
 }
 
+nav {
+    display: flex;
+    top:0;
+    left:0;
+    width:100%;
+    height: 53px;
+    padding: 0px 90px;
+    box-sizing: border-box;
+    background: rgba(0, 0, 0, 0.6);
+    border-bottom: 1px solid #fff;
+    position: fixed;
+    z-index: 15;
+  
+  }
+  
+  #lina{
+    height: 10px;
+  }
+  
+  .logo {
+  width:30%;
+  height: 60px;
+  padding: 10px 15px;
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color:#fff;
+  
+  }
+  .navbar{
+  display: flex;
+  width:70%;
+  justify-content: flex-end;
+  padding: 0px 15px;
+  }
+  
+  ul.na {
+    list-style: none;
+    float:right;
+    margin:0;
+    padding: 0;
+    display: flex;
+  
+  }
+  
+  a.haha{
+  
+    line-height: 53px;
+    color: white;
+    padding: 7px 30px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+  
+  }
+  
+  a.haha:hover{
+    background:rgba(0, 0,0, 0.7);
+    border-radius: 8px;
+  
+  }
+  
+    
+  a.hahaha{
+    
+    line-height: 30px;
+    color: white;
+    padding: 7px 30px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+  
+  }
+  
+  a.hahaha:hover{
+    background:rgba(0, 0,0, 0.7);
+    border-radius: 8px;
+  
+  }
 
 
 

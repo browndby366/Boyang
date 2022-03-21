@@ -1552,7 +1552,7 @@ var config = {
             hidden: false,
             title: 'See More Detials', 
             image: '../data/image问问.jpg',
-            description: 'Please see more details in the <a style= "text-decoration: none;font-size:15px;" href="https://browndby366.github.io/FirstGit/Capstone/landing/index.html">Home page</a>.',
+            description: 'Do you find it interesting? To see more details please explore from the <a style= "text-decoration: none;font-size:15px;" href="https://browndby366.github.io/FirstGit/Capstone/landing/index.html">START</a>.',
             location: {
                 center: [-73.89450, 40.85480],
                 zoom: 14.8,
