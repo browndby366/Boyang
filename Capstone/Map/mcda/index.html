@@ -7,6 +7,7 @@
     <script src='https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.js'></script>
     <link rel="stylesheet" href="./style.css">
     <link href='https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.css' rel='stylesheet' />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
 <body>
@@ -16,6 +17,18 @@
     
 
     <div id='map'></div>
+
+    <div class='map-overlay2' id='download'>
+        <form>
+            <button>
+                
+                <i class="fa fa-download"><a id='down' href="../data/beej_mcda.zip" download></a></i>
+            </button>
+        </form>
+    </div>
+
+
+
     <div class='map-overlay1' id='features'>
         <h2>Low Building Energy Efficiency Performance Areas</h2><img src="../data/mcda_002.png" alt="mcda">
         <div id='pd'><h4></h4></div></div>
@@ -38,6 +51,7 @@
                 </div>
             </li>
         </ul>
+        <button style="height: 30px; width: 95px; top:0;bottom:0;left: 36%;right: 37%;text-align: left;font-size: 18px;"><a style = 'text-decoration: none; color: black;'href="https://browndby366.github.io/FirstGit/Capstone/Map/beej/index.html">BEEJ</a></button>
     </div>  
 
     <script src="../mcda/map.js"></script>
