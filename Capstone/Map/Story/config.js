@@ -1550,9 +1550,9 @@ var config = {
             id: 'chapter-24',
             alignment: 'center',
             hidden: false,
-            title: 'See more detials', 
+            title: 'See More Detials', 
             image: '../data/image问问.jpg',
-            description: 'Please see more details in the <a style= "text-decoration: none" href="https://browndby366.github.io/FirstGit/Capstone/landing/index.html">Home</a> page.',
+            description: 'Please see more details in the <a style= "text-decoration: none;font-size:15px;" href="https://browndby366.github.io/FirstGit/Capstone/landing/index.html">Home page</a>.',
             location: {
                 center: [-73.89450, 40.85480],
                 zoom: 14.8,
