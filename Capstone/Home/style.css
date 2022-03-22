@@ -143,6 +143,7 @@ a.hahaha{
 h1 {
     color: #fff;
     font-size: 60px;
+    
 
 }
 
@@ -151,6 +152,8 @@ p{
     color: #fff;
     font-size: 11px;
     line-height: 15px;
+    padding-top: 15px;
+    width: 520px;
     
 
 }
