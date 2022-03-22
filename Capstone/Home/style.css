@@ -208,6 +208,7 @@ a.explore{
     width: 200px;
     height: 230px;
     display: inline-block;
+
     
     border-radius: 10px;
     padding: 15px 25px;
@@ -219,6 +220,8 @@ a.explore{
     background-size: cover;
 
     transition: transform 0.5s;
+
+    box-shadow: 4px 5px #adacac;
 }
 
 .story:hover{
