@@ -239,6 +239,7 @@ body.scroll header.sticky {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  height: 53px;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -269,10 +270,23 @@ nav.nav-wrapper ul li a:hover {
   border-bottom: 1px solid #ffffff;
 }
 
-header .logo img {
+header .img {
   max-width: 100px;
 }
 
+a.hahaha{
+  
+  line-height: 30px;
+  color: white;
+  padding: 7px 30px;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  
+
+}
 
 /* PARALLAX PAGE STYLES START */
 .cover-main {
