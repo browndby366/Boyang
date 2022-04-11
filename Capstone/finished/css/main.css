@@ -217,7 +217,7 @@ header.sticky {
   top: 0;
   left: 0;
   right: 0;
-  background: rgba(0, 0, 0, 0.85);
+  background: rgba(0, 0, 0, 0.6);
   -webkit-transform: translateY(-200%);
           transform: translateY(-200%);
   -webkit-transition: 0.2s;
@@ -255,23 +255,37 @@ nav.nav-wrapper ul li {
 }
 
 nav.nav-wrapper ul li a {
-  font-size: 17px;
-  line-height: 22px;
+  font-size: 14px;
+  line-height: 53px;
   text-decoration: none;
   color: white;
   cursor: pointer;
-  border-bottom: 1px solid transparent;
-  padding-bottom: 3px;
+  
+  padding: 7px 30px;
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
 
 nav.nav-wrapper ul li a:hover {
-  border-bottom: 1px solid #ffffff;
+  background:rgba(0, 0,0, 0.7);
+  border-radius: 8px;
 }
 
 header .img {
   max-width: 100px;
+}
+
+a.haha{
+
+  line-height: 53px;
+  color: white;
+  padding: 7px 30px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+
 }
 
 a.hahaha{
@@ -284,6 +298,7 @@ a.hahaha{
   font-weight: bold;
   text-transform: uppercase;
   cursor: pointer;
+  font-weight: bold;
   
 
 }
@@ -613,8 +628,20 @@ footer h1 {
         z-index: 20;
       }
 
+      .navbar{
+        display: flex;
+        width:70%;
+        justify-content: flex-end;
+        padding: 0px 15px;
+    }
+
       .menu {
         position: fixed;
+        display: flex;
+        width:70%;
+        justify-content: flex-end;
+        padding: 0px 15px;
+    
         top: 0;
         bottom: 0;
         left: 0;
