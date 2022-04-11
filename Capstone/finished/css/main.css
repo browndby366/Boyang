@@ -815,3 +815,17 @@ background:rgba(0, 0,0, 0.7);
 border-radius: 8px;
 
 }
+
+.name1{
+  line-height: 20px;
+
+  padding:35px 500px;
+
+}
+
+.footer{
+  display: flex;
+  padding: 30px 10px;
+  
+  
+}
