@@ -190,84 +190,7 @@ ol li {
 }
 
 /*HELPER CLASS END*/
-nav {
-  display: flex;
-  top:0;
-  left:0;
-  width:100%;
-  height: 53px;
-  padding: 0px 90px;
-  box-sizing: border-box;
-  background: rgba(0, 0, 0, 0.6);
-  border-bottom: 1px transparent;
 
-}
-
-.logo {
-width:30%;
-height: 60px;
-padding: 7px 15px;
-font-size: 24px;
-font-weight: bold;
-text-transform: uppercase;
-color:#fff;
-
-}
-.navbar{
-display: flex;
-width:70%;
-justify-content: flex-end;
-padding: 0px 15px;
-}
-
-ul {
-list-style: none;
-float:right;
-margin:0;
-padding: 0;
-display: flex;
-
-}
-
-a.haha{
-
-line-height: 53px;
-color: white;
-padding: 7px 30px;
-text-decoration: none;
-font-size: 14px;
-font-weight: bold;
-text-transform: uppercase;
-cursor: pointer;
-
-}
-
-a:hover{
-background:rgba(0, 0,0, 0.7);
-border-radius: 8px;
-
-}
-
-
-a.hahaha{
-
-line-height: 30px;
-color: white;
-padding: 7px 30px;
-text-decoration: none;
-font-size: 20px;
-font-weight: bold;
-text-transform: uppercase;
-cursor: pointer;
-
-
-}
-
-a.hahaha:hover{
-background:rgba(0, 0,0, 0.7);
-border-radius: 8px;
-
-}
 
 
 
@@ -319,9 +242,7 @@ body.scroll header.sticky {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 53px;
-  width:70%;
-  justify-content: flex-end;
+ 
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -359,33 +280,7 @@ header .img {
   max-width: 100px;
 }
 
-a.haha{
 
-  line-height: 53px;
-  color: white;
-  padding: 7px 30px;
-  text-decoration: none;
-  font-size: 14px;
-  font-weight: bold;
-  text-transform: uppercase;
-  cursor: pointer;
-
-}
-
-a.hahaha{
-  
-  line-height: 30px;
-  color: white;
-  padding: 7px 30px;
-  text-decoration: none;
-  font-size: 20px;
-  font-weight: bold;
-  text-transform: uppercase;
-  cursor: pointer;
-  font-weight: bold;
-  
-
-}
 
 /* PARALLAX PAGE STYLES START */
 .cover-main {
@@ -403,6 +298,7 @@ ul#scene li.name {
     text-transform: uppercase;
     color: white;
     width: 100%;
+    
 }
 
 ul#scene li.title {
@@ -412,16 +308,20 @@ ul#scene li.title {
     color: white;
     width: 100%;
     margin-top: 60px;
+    padding-right: 360px;
+    
 }
 
 ul#scene {
   margin-top: 100px;
+  padding-right: 360px;
 }
 
 .btn {
   width: 100%;
   text-align: center;
   margin-top: 150px;
+  padding-right: 360px;
 }
 
 .portfolio-btn,
@@ -712,12 +612,7 @@ footer h1 {
         z-index: 20;
       }
 
-      .navbar{
-        display: flex;
-        width:70%;
-        justify-content: flex-end;
-        padding: 0px 15px;
-    }
+
 
       .menu {
         position: fixed;
@@ -838,5 +733,85 @@ footer h1 {
   .menu {
     max-width: 200px;
   }
+
+}
+
+
+nav {
+  display: flex;
+  top:0;
+  left:0;
+  width:100%;
+  height: 53px;
+  padding: 0px 90px;
+  box-sizing: border-box;
+  background: rgba(0, 0, 0, 0.6);
+  border-bottom: 1px transparent;
+
+}
+
+.logo {
+width:30%;
+height: 60px;
+padding: 7px 15px;
+font-size: 24px;
+font-weight: bold;
+text-transform: uppercase;
+color:#fff;
+
+}
+.navbar{
+display: flex;
+width:70%;
+justify-content: flex-end;
+padding: 0px 15px;
+}
+
+ul {
+list-style: none;
+float:right;
+margin:0;
+padding: 0;
+display: flex;
+
+}
+
+a.haha{
+
+line-height: 53px;
+color: white;
+padding: 7px 30px;
+text-decoration: none;
+font-size: 14px;
+font-weight: bold;
+text-transform: uppercase;
+cursor: pointer;
+
+}
+
+a:hover{
+background:rgba(0, 0,0, 0.7);
+border-radius: 8px;
+
+}
+
+
+a.hahaha{
+
+line-height: 30px;
+color: white;
+padding: 7px 30px;
+text-decoration: none;
+font-size: 20px;
+font-weight: bold;
+text-transform: uppercase;
+cursor: pointer;
+
+
+}
+
+a.hahaha:hover{
+background:rgba(0, 0,0, 0.7);
+border-radius: 8px;
 
 }
