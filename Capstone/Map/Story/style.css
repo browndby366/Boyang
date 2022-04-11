@@ -124,7 +124,7 @@ nav {
     padding: 0px 73px;
     box-sizing: border-box;
     background: rgba(0, 0, 0, 0.6);
-    border-bottom: 1px solid #fff;
+    border-bottom: 1px transparent;
     position: fixed;
     z-index: 15;
   
