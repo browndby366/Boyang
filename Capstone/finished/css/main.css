@@ -293,35 +293,36 @@ header .img {
 
 ul#scene li.name {
     text-align: center;
-    font-size: 40px;
+    font-size: 26px;
     line-height: 45px;
-    text-transform: uppercase;
+    
     color: white;
     width: 100%;
+  
     
 }
 
 ul#scene li.title {
     text-align: center;
-    font-size: 30px;
+    font-size: 20px;
     line-height: 35px;
     color: white;
     width: 100%;
     margin-top: 60px;
-    padding-right: 360px;
+    padding-right: 180px;
     
 }
 
 ul#scene {
   margin-top: 100px;
-  padding-right: 360px;
+  padding-right: 180px;
 }
 
 .btn {
   width: 100%;
   text-align: center;
   margin-top: 150px;
-  padding-right: 360px;
+  padding-right: 180px;
 }
 
 .portfolio-btn,
@@ -345,10 +346,12 @@ ul#scene {
 
 .portfolio-btn {
   margin-right: 30px;
+  width: 155px;
 }
 
 .contact-btn {
   margin-left: 30px;
+  width: 155px;
 }
 /* PARALLAX PAGE STYLES END */
 
@@ -819,7 +822,7 @@ border-radius: 8px;
 .name1{
   line-height: 20px;
 
-  padding:35px 500px;
+  padding:30px 500px;
 
 }
 
@@ -828,4 +831,75 @@ border-radius: 8px;
   padding: 30px 10px;
   
   
+}
+
+.town{
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.town:hover{
+  background: transparent;
+  
+}
+
+.ber{
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.ber:hover{
+  background: white;
+  color: black;
+}
+
+
+.cel{
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.cel:hover{
+  background: white;
+  color: black;
+}
+
+.dare{
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.dare:hover{
+  background: white;
+  color: black;
+}
+
+.ter{
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.ter:hover{
+  background: white;
+  color: black;
+}
+
+.pet{
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.pet:hover{
+  background: white;
+  color: black;
+}
+
+.bo{
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.bo:hover{
+  background: white;
+  color: black;
 }
