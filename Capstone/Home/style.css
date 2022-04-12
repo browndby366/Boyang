@@ -221,8 +221,10 @@ a.explore{
 
     transition: transform 0.5s;
 
-    box-shadow: 4px 5px #adacac;
+    box-shadow: 4px 5px linear-gradient(#89ff00,#010615,#00bcd4);
 }
+
+
 
 .story:hover{
     background: transparent;
