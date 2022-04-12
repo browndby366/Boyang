@@ -285,7 +285,7 @@ header .img {
 /* PARALLAX PAGE STYLES START */
 .cover-main {
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url('../images/hero-bg.jpg') right bottom;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/hero-bg.jpg') right bottom;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/alma-butler-columbia.jpg') right bottom;
   background-repeat: no-repeat;
   background-size: cover;
   height: 60vh;
@@ -395,7 +395,7 @@ h2.sub-title::after {
 
 section.beating-heart {
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url('../images/hero-bg.jpg') no-repeat right bottom / cover;
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../images/hero-bg.jpg') no-repeat right bottom / cover;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../images/20615785_1535872703139592_7362002320652207050_o.jpg') no-repeat right bottom / cover;
   text-align: center;
   height: 100vh;
   padding: 50px 10px;
