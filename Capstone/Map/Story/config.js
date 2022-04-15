@@ -17,7 +17,7 @@ var config = {
             hidden: false,
             title: 'One NYC',
             image: "http://1w3f31pzvdm485dou3dppkcq-wpengine.netdna-ssl.com/wp-content/uploads/2019/04/onenyc-2050-summary-image-800x550-c-default.jpg",
-            description: 'New York City is leading the trend in reducing greenhouse gas emissions. New York City is consistent with the Paris Climate Agreement and has taken a series of measures in various aspects to reduce greenhouse gas emissions (GHG). According to <a style = "text-decoration:none" href="https://onenyc.cityofnewyork.us/">OneNYC 2050 </a> , official strategic plan of New York City for development based on "principles of growth, equity, sustainability, and resiliency", the city is committed to achieving carbon neutrality by 2050 and zero GHG emissions.',
+            description: ' (Image source: OneNYC 2050) <br>New York City is leading the trend in reducing greenhouse gas emissions. New York City is consistent with the Paris Climate Agreement and has taken a series of measures in various aspects to reduce greenhouse gas emissions (GHG). According to <a style = "text-decoration:none" href="https://onenyc.cityofnewyork.us/">OneNYC 2050 </a> , official strategic plan of New York City for development based on "principles of growth, equity, sustainability, and resiliency", the city is committed to achieving carbon neutrality by 2050 and zero GHG emissions.',
             location: {
                 center: [ -74.10000, 40.72000],
                 zoom: 10,
@@ -82,7 +82,7 @@ var config = {
             hidden: false,
             title: 'Buildings Emissions Is Huge',
             image: '../data/new-york-1745089_1920-1-630x200.jpg',
-            description: '<a style="text-decoration: none;" href="https://www1.nyc.gov/site/sustainablebuildings/ll97/local-law-97.page#:~:text=Buildings%20account%20for%20approximately%20two,reducing%20emissions%20in%20the%20nation.">Buildings account for two-thirds of New York City GHG emissions.</a> Most of the emissions come from electricity and fuel used for heating, cooling and power, and also from inefficient energy systems. Due to inefficiency and energy waste, many buildings use more energy than they actually need. Energy efficiency is one of the simplest ways to eliminate energy waste and reduce energy cost.',
+            description: '(Image source: <a style="text-decoration: none;" href="https://myadventuresacrosstheworld.com/things-to-do-in-new-york/">https://myadventuresacrosstheworld.com/things-to-do-in-new-york/)<br><a style="text-decoration: none;" href="https://www1.nyc.gov/site/sustainablebuildings/ll97/local-law-97.page#:~:text=Buildings%20account%20for%20approximately%20two,reducing%20emissions%20in%20the%20nation.">Buildings account for two-thirds of New York City GHG emissions.</a> Most of the emissions come from electricity and fuel used for heating, cooling and power, and also from inefficient energy systems. Due to inefficiency and energy waste, many buildings use more energy than they actually need. Energy efficiency is one of the simplest ways to eliminate energy waste and reduce energy cost.',
             location: {
                 center: [ -74.10000, 40.72000],
                 zoom: 10,
@@ -150,9 +150,9 @@ var config = {
             id: 'chapter-3',
             alignment: 'center',
             hidden: false,
-            title: 'Building Energy Efficiency Rating',
+            title: 'Building Energy Efficiency Rating ',
             image: '../data/buildings_energyefficiency_rating.jpg',
-            description: 'An energy efficiency score is the <a style="text-decoration:none"  href="https://www1.nyc.gov/site/buildings/property-or-business-owner/energy-grades.page">Energy Star Rating</a> that a building earns using the United States Environmental Protection Agency online benchmarking tool to compare building energy performance to similar buildings in similar climates, where the higher the score, the better the energy performance of the building.',
+            description: ' (Image source: NYC Department of Buildings). <br>An energy efficiency score is the <a style="text-decoration:none"  href="https://www1.nyc.gov/site/buildings/property-or-business-owner/energy-grades.page">Energy Star Rating</a> that a building earns using the United States Environmental Protection Agency online benchmarking tool to compare building energy performance to similar buildings in similar climates, where the higher the score, the better the energy performance of the building.',
             location: {
                 center: [ -74.10000, 40.72000],
                 zoom: 10,
