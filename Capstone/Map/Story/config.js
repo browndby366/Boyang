@@ -1166,7 +1166,7 @@ var config = {
             hidden: false,
             title: 'Low Building Energy Efficiency Performance Areas',
             image: '../data/describe.png',
-            description: 'This map shows the areas in urgent need of our attention where buildings are underperforming in terms of building energy efficiency. That is, these red areas receive the highest BEEJ scores and have the highest number of buildings with below-average energy efficiency performance. The number of buildings with a D score is combined with the BEEJ score to calculate the score using the MCDA methodology (multiple-criteria decision analysis), where the BEEJ weight is 3 (including energy score, minority population and low-income population) and the number of buildings with a D score below 50 is weighted 1.',
+            description: 'This map shows the areas in urgent need of our attention where buildings are underperforming in terms of building energy efficiency. That is, these red areas receive the highest BEEJ scores and have the highest number of buildings with below-average energy efficiency performance. The number of buildings with a D score is combined with the BEEJ score to calculate the score using the MCDA methodology (multiple-criteria decision analysis), where the BEEJ weight is 3 to 15(including energy score, minority population and low-income population) and the number of buildings with a D score below 50 is weighted 1 to 5, and the total MCDA score is 4 to 20.',
             location: {
                 center: [-74.10000, 40.72000],
                 zoom: 10,
