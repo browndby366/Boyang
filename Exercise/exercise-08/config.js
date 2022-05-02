@@ -14,19 +14,37 @@ Hint: Classes for each color have already been defined in the CSS tab.
 // 2 -- Add an event listener to each circle
 //ul.addEventListener('click',changeColor)
 const happy = document.getElementById('switcher');
-const happy1 = document.getElementById('whiteButton');
+
+const fly = document.getElementsByTagName('body')[0];
+
+const grey = document.getElementById('grayButton');
+const white = document.getElementById('whiteButton');
+const blue = document.getElementById('blueButton');
+const yellow = document.getElementById('yellowButton');
 
 console.log(happy)
 
-happy.style.background='blue';
-happy.style.height='50vh';
 
 
-function changeColor(){
-    happy.style.background = 'red';
+
+function changeColorGrey(){
+    fly.style.background = 'grey';
+}
+
+function changeColorWhite(){
+    fly.style.background = 'white';
+}
+
+function changeColorBlue(){
+    fly.style.background = 'blue';
+}
+
+function changeColorYellow(){
+    fly.style.background = 'yellow';
 }
 
 
-
-happy1.addEventListener('click',changeColor)
-
+grey.addEventListener('click',changeColorGrey)
+white.addEventListener('click',changeColorWhite)
+blue.addEventListener('click',changeColorBlue)
+yellow.addEventListener('click',changeColorYellow)
