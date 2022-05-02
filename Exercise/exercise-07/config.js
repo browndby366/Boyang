@@ -1,11 +1,13 @@
-const article  = document.querySelector('article');
+let nouns = ["Marry","Brown","Lily","Span","Kiky"];
+let verbs = ["ate","swallowed","chewed","threw","took"];
+let adjectives = ["happy","satisfied","delighted","lucky","sorry"];
 
-console.log(article.children);
+let noun = nouns[Math.floor(Math.random()*nouns.length)]
+let verb = verbs[Math.floor(Math.random()*verbs.length)] 
+let adjective = adjectives[Math.floor(Math.random()*adjectives.length)] 
 
-console.log(Array.from(article.children))
+let sentence = `${noun} ${verb} a cookie and felt very ${adjective}.`
 
-Array.from(article.children).forEach((child) =>{
-    child.style.color='red';
-})
-
+console.log(sentence)
+document.write(sentence)
 
