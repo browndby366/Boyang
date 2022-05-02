@@ -26,6 +26,30 @@ ul{
     
 }
 
+.haha {
+    color: white;
+    text-decoration: none
+    ;
+}
+.button{
+    background: green;
+    width:60px;
+    text-align: center;
+    cursor: pointer;
+
+
+}
+
+.button:hover{
+    background: red;
+    transition-duration: 2s;
+    transition-delay: 1s;
+
+
+}
+
+
+
 a.menu{
     text-decoration: none;
     background: yellow;
@@ -33,7 +57,7 @@ a.menu{
 }
 
 a.menu:hover{
-    animation: colors 2s ease-in 0.3s;
+    animation: colors 3s ease-in 0.3s;
 
     
 }
@@ -130,7 +154,7 @@ p{
     }
 
     header,footer{
-        background: blue;
+        background: white;
     }
     main{
       
