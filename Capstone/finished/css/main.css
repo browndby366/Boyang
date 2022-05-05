@@ -821,7 +821,7 @@ border-radius: 8px;
 }
 
 .name1{
-  line-height: 20px;
+  line-height: 30px;
   font-size: 18px;
 
   padding:30px 500px;
@@ -925,4 +925,9 @@ border-radius: 8px;
 p{
   font-size: 18px;
   line-height: 30px;
+}
+
+.image{
+  cursor: pointer;
+  z-index: 19;
 }
