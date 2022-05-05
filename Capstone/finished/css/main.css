@@ -920,3 +920,8 @@ border-radius: 8px;
     transition: 0.5s;
 
 }
+
+p{
+  font-size: 18px;
+  line-height: 30px;
+}
