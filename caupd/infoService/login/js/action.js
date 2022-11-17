@@ -1,4 +1,9 @@
+let callCount = 0;
+
 function validate() {
+
+    callCount += 1;
+
     let username = document.getElementById('username').value;
     let password = document.getElementById('password').value;
 
@@ -10,3 +15,5 @@ function validate() {
     }
 
 }
+
+console.log(callCount);
