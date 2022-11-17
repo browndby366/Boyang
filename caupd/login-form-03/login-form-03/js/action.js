@@ -6,7 +6,7 @@ function validate() {
     {
         window.open('http://10.10.2.102:5001', '_blank');
     } else {
-        alert('login 失败')
+        alert('账户或密码错误')
     }
 
 }
