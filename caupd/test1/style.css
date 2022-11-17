@@ -1,0 +1,325 @@
+* {
+ 
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+  }
+
+  html,
+  body {
+    height: 100%;
+  }
+  
+ 
+  body
+  {
+    margin:0;
+    padding:0;
+    font-family:"Roboto",sans-serif;
+
+
+
+  }
+.container{
+
+        width: 100%;
+        height:100vh;
+        background:linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.6)), url(../finished/images/hero-bg.jpg);
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        
+
+}
+
+  nav {
+      display: flex;
+      top:0;
+      left:0;
+      width:100%;
+      height: 53px;
+      padding: 0px 90px;
+      box-sizing: border-box;
+      background: rgba(0, 0, 0, 0.6);
+      border-bottom: 1px transparent;
+
+  }
+
+.logo {
+    width:30%;
+    height: 60px;
+    padding: 7px 15px;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color:#fff;
+
+}
+.navbar{
+    display: flex;
+    width:70%;
+    justify-content: flex-end;
+    padding: 0px 15px;
+}
+
+ul {
+    list-style: none;
+    float:right;
+    margin:0;
+    padding: 0;
+    display: flex;
+
+}
+
+a.haha{
+
+    line-height: 53px;
+    color: white;
+    padding: 7px 30px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+
+}
+
+a:hover{
+    background:rgba(0, 0,0, 0.7);
+    border-radius: 8px;
+
+}
+
+  
+a.hahaha{
+  
+    line-height: 30px;
+    color: white;
+    padding: 7px 30px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    
+  
+  }
+  
+  a.hahaha:hover{
+    background:rgba(0, 0,0, 0.7);
+    border-radius: 8px;
+  
+  }
+
+
+.row {
+    display: flex;
+    height: 83%;
+    align-items: center;
+    background-color: transparent;
+    padding-left: 80px;
+    padding-right: 20px;
+    justify-content: space-around;
+    
+
+}
+
+.foot{
+    height:5%;
+}
+
+
+.col .left{
+    width: 50%;
+}
+
+.col .right{
+    width:50%;
+    display: flex;
+}
+
+
+h1 {
+    color: #fff;
+    font-size: 60px;
+    
+
+}
+
+p{
+
+    color: #fff;
+    font-size: 16px;
+    line-height: 25px;
+    padding-top: 15px;
+    width: 520px;
+    
+
+}
+
+a{
+    color:#fff;
+    text-decoration: none;
+}
+ 
+button
+{
+    width: 150px;
+    height: 28px;
+    color:#000;
+    font-size: 20px;
+    padding: 12px,10px;
+    background: linear-gradient(to right, rgb(97, 95, 95),white);
+    border-radius: 20px;
+    outline: none;
+    cursor: pointer;
+    transition:width 0.5s;
+    border:none;
+}
+
+button img{
+    width:30px;
+    display:none;
+}
+
+button:hover img{
+    display: none;
+
+}
+
+.col .right{
+    display: flex;
+}
+button:hover{
+    width:160px;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    
+    background: linear-gradient(to right,white,gray);
+}
+
+a.explore{
+    background: transparent;
+}
+
+.card {
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+
+    
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 20px 15px;
+
+    background-position: center;
+    background-size: cover;
+
+    transition: transform 0.5s;
+
+    box-shadow: 4px 5px linear-gradient(#89ff00,#010615,#00bcd4);
+}
+
+
+
+.story:hover{
+    background: transparent;
+}
+
+.card1{
+    background-image: url(../image/620bfad14bb3b.jpg);
+
+}
+
+.card2{
+    background-image: url(../image/canva-unrecognizable-man-working-on-laptop-remotely-MAD-BwIsoVI.jpg);
+
+}
+
+.card3{
+    background-image: url(../image/total_build_rt_img1.png);
+
+}
+
+.card4{
+    background-image: url(../image/79.-Vision-bus.jpg);
+
+}
+
+.card:hover{
+    transform: translateY(-10px);
+}
+
+h5 {
+    color:#fff;
+    font-size: 20px;
+    text-shadow:0 0 5px #999 ;
+}
+
+card.p{
+    text-shadow:0 0 15px #000 ;
+    font-size:  8px; 
+}
+
+@media (max-width:1050px){
+    .card{
+        display:flex;
+        flex-direction: column;
+    }
+    .logo{
+        display:none;
+    }
+    .row{
+        flex-direction: column;
+        padding-top: 50px;
+        
+        
+    }
+    .nav{
+        padding:0px;
+    }
+    .navbar{
+        width: 100%;
+        justify-content: space-around;
+    }
+    a.haha{
+        font-size: 13px;
+    }
+
+    .col .left{
+        height: 50vh;
+        flex-basis:40%;
+    }
+  
+
+    .col .right{
+        display: flex;
+        flex-grow: 2;
+    
+        width: 100%;
+        height: 50vh;
+    }
+
+    h1{
+        font-size: 40px;
+    }
+
+    
+    .card{
+   
+        
+        width: 100px;
+        height: 114px;
+    }
+
+    
+    h5{
+        font-size: 15px;
+
+    }
+    
+}
