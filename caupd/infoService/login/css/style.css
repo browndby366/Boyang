@@ -13,7 +13,8 @@ p {
 
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
-  font-family: "Roboto", sans-serif; }
+  font-family: "Roboto", sans-serif;
+ }
 
 .title0{
   font-size: 70px;
@@ -38,24 +39,29 @@ h1, h2, h3, h4, h5, h6,
 a {
   -webkit-transition: .3s all ease;
   -o-transition: .3s all ease;
-  transition: .3s all ease; }
+  transition: .3s all ease; 
+}
   a:hover {
     text-decoration: none !important;
+    
    }
 
 .content {
   padding: 7rem 0; 
   
   
+  
 }
 
 h2 {
   font-size: 20px;
+  
  }
 
 .half, .half .container > .row {
   height: 75vh;
   min-height: 700px; 
+  
   
   }
 
@@ -64,19 +70,23 @@ h2 {
   
   
   
+  
 
  }
   @media (max-width: 991.98px) {
     .half .bg {
       height: 200px; 
+      
     } }
 
 .half .contents {
   background: #f6f7fc;
+  
  }
 
 .half .contents, .half .bg {
   width: 100%; 
+  
 }
   @media (max-width: 1199.98px) {
     .half .contents, .half .bg {
@@ -92,16 +102,19 @@ h2 {
       outline: none;
       
       -webkit-box-shadow: none;
-      box-shadow: none; }
+      box-shadow: none;
+     }
 
 .half .bg {
   background-size: cover;
   background-position: center;
+  
  }
 
 .half a {
   color: #888;
   text-decoration: underline; 
+  
 }
 
 .half .btn {
@@ -109,12 +122,14 @@ h2 {
   padding-left: 30px;
   padding-right: 30px; 
   
+  
   background:#4299e0; }
 
 .half .forgot-pass {
   position: relative;
   top: 2px;
   font-size: 14px;
+  
 
 
 }
@@ -122,11 +137,13 @@ h2 {
 .form-block {
   background: #fff;
   
+  
   padding: 40px;
   margin-top: -30px; }
   @media (max-width: 991.98px) {
     .form-block {
-      padding: 25px; } }
+      padding: 25px;
+     } }
 
 .control {
   display: block;
@@ -134,17 +151,20 @@ h2 {
   padding-left: 30px;
   margin-bottom: 15px;
   cursor: pointer;
-  font-size: 14px; }
+  font-size: 14px; 
+}
   .control .caption {
     position: relative;
     top: .2rem;
     color: #888;
+    
    }
 
 .control input {
   position: absolute;
   z-index: -1;
   opacity: 0;
+  
  }
 
 .control__indicator {
@@ -155,17 +175,21 @@ h2 {
   width: 20px;
   background: #e6e6e6;
   border-radius: 4px; 
+  
 }
 
 .control--radio .control__indicator {
-  border-radius: 50%; }
+  border-radius: 50%; 
+}
 
 .control:hover input ~ .control__indicator,
 .control input:focus ~ .control__indicator {
   background: #ccc; }
 
 .control input:checked ~ .control__indicator {
-  background: #4299e0; }
+
+
+}
 
 .control:hover input:not([disabled]):checked ~ .control__indicator,
 .control input:checked:focus ~ .control__indicator {
@@ -174,7 +198,8 @@ h2 {
 .control input:disabled ~ .control__indicator {
   background: #e6e6e6;
   opacity: 0.9;
-  pointer-events: none; }
+  pointer-events: none; 
+}
 
 .control__indicator:after {
   font-family: 'icomoon';
@@ -184,11 +209,13 @@ h2 {
   font-size: 16px;
   -webkit-transition: .3s all ease;
   -o-transition: .3s all ease;
-  transition: .3s all ease; }
+  transition: .3s all ease; 
+}
 
 .control input:checked ~ .control__indicator:after {
   display: block;
-  color: #fff; }
+  color: #fff;
+ }
 
 .control--checkbox .control__indicator:after {
   top: 50%;
@@ -197,6 +224,7 @@ h2 {
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
+  
   }
 
 .control--checkbox input:disabled ~ .control__indicator:after {
@@ -207,3 +235,5 @@ h2 {
   background-color: #7e0cf5;
   
   opacity: .2; }
+
+
