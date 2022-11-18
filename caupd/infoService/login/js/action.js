@@ -7,7 +7,10 @@ function validate() {
     let username = document.getElementById('username').value;
     let password = document.getElementById('password').value;
 
-    if (username === 'caupd' && password === 'caupd')
+    if ((username === 'caupd' && password === 'caupd')
+    || (username === 'caupd1' && password === 'caupd1')
+    
+    )
     {
         window.open('http://10.10.2.102:5001', '_blank');
     } else {
